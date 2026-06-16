@@ -35,7 +35,7 @@
     <!-- qrcodejs (reliable UMD global: window.QRCode) -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
     <!-- Babel for in-browser JSX transform (dev convenience) -->
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone@7.23.9/babel.min.js"></script>
   </head>
   <body>
     <div id="root" style="display:flex;align-items:center;justify-content:center;min-height:100vh;background:#111;color:#fff;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial">Loading…</div>
@@ -112,7 +112,7 @@
         const ticket = useMemo(() => ({
           type: 'ticket - Brasov - Sacele',
           purchaseDate: new Date(),
-          orderNumber: '230842719',
+          orderNumber: '235852719',
           price: '5.0 RON'
         }), []);
 
@@ -437,5 +437,4 @@
     }
   </script>
   </html>
-
 
